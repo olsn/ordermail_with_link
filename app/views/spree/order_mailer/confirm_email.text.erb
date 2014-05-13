@@ -1,8 +1,8 @@
+<% require 'base64' %>
 <%= Spree.t('order_mailer.confirm_email.dear_customer') %>
 
 <%= Spree.t('order_mailer.confirm_email.instructions') %>
-<% require 'base64' %>
-<%= Spree.t('order_mailer.confirm_email.status_link', :statusLink => Base64.encode64(@order.number + '::' + @order.token) %>
+<%= Spree.t('order_mailer.confirm_email.status_link', :statusLink => Base64.encode64(@order.number + '::' + @order.token)) %>
 
 ============================================================
 <%= Spree.t('order_mailer.confirm_email.order_summary') %>
