@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'ordermail_with_link'
-  s.version     = '2.2.1'
+  s.version     = '2.2.2'
   s.summary     = 'Inserts a cart-link into the email.'
   s.description = 'Inserts a cart-link into the mail.'
   s.required_ruby_version = '>= 1.9.3'
